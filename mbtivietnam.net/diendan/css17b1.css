@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+/* --- fa_socialicons.css --- */
+
+.socialicons
+{
+	float: right;
+	margin-top: 10px;
+}
+.socialicons li
+{
+	display: inline-block;
+}
+.socialicons li a
+{
+	padding: 10px;
+	font-size: 24px;
+	color: rgb(20,20,20);
+}
+.socialicons li a:hover
+{
+	color: rgb(0, 0, 0);
+}
+
+/* --- facebook.css --- */
+
+a.fbLogin,
+#loginBar a.fbLogin
+{
+	display: inline-block;
+	width: 180px;
+	height: 22px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+	cursor: pointer;
+	
+
+	background-repeat: no-repeat;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;
+	padding: 0px 0px 0px 1px;
+	outline: none;
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+	.fbLogin .fa
+{
+	float: left;
+	padding: 3px 0 0 5px;
+	font-size: 15px;
+	margin-right: 5px;
+}
+a.fbLogin:hover,
+#loginBar a.fbLogin:hover
+{
+	text-decoration: none;
+}
+
+	a.fbLogin span
+	{
+		background: #5f78ab url('../../b.s-static.ak.facebook.com/images/connect_sprite.png');
+		line-height: 21px;
+		border-top: solid 1px #879ac0;
+		border-bottom: solid 1px #1a356e;
+		display: block;
+		padding: 2px 4px 3px;
+		margin: 1px 1px 0px 0px;
+		text-shadow: none;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	a.fbLogin:active span
+	{
+		border-bottom: solid 1px #29447e;
+		border-top: solid 1px #45619d;
+		background: #4f6aa3;
+		text-shadow: none;
+	}
+
+/* --- panel_scroller.css --- */
+
+.hasJs #Notices.PanelScroller { display: none; }
+
+.PanelScroller .scrollContainer,
+.PanelScrollerOff .panel
+{
+	background-color: rgb(255, 255, 255);
+padding: 3px;
+margin-bottom: 10px;
+-webkit-border-radius: 0px; -moz-border-radius: 0px; -khtml-border-radius: 0px; border-radius: 0px;
+font-size: 13pt;
+color: #000000;
+
+}
+
+.PanelScroller .PanelContainer
+{
+	position: relative;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+	.hasJs .PanelScroller .Panels
+	{
+		position: absolute;
+	}
+
+	.PanelScroller .Panels
+	{
+		clear: both;
+		margin: 0;
+		padding: 0;
+	}
+	
+		.PanelScroller .panel,
+		.PanelScrollerOff .panel
+		{
+			overflow: hidden;
+			position: relative;
+			padding: 0 !important;
+
+			padding: 10px;
+color: #000000;
+
+		}
+			
+		.PanelScroller .panel .noticeContent,
+		.PanelScrollerOff .panel .noticeContent
+		{
+			padding: 10px;
+		}
+
+/** panel scroller nav **/
+
+.PanelScroller .navContainer
+{
+	margin: -11px 21px 10px;
+overflow: hidden;
+zoom: 1;
+
+}
+
+.PanelScroller .navControls
+{
+	float: right;
+}
+
+/* clearfix */ .PanelScroller .navControls { zoom: 1; } .PanelScroller .navControls:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+
+	.PanelScroller .navControls a
+	{
+		font-size: 11px;
+color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+padding: 3px 6px 2px;
+margin-right: 3px;
+margin-left: -1px;
+float: left;
+display: block;
+position: relative;
+
+		
+		-webkit-border-radius: 0px; -moz-border-radius: 0px; -khtml-border-radius: 0px; border-radius: 0px;
+		-webkit-border-radius: 0; -moz-border-radius: 0; -khtml-border-radius: 0; border-radius: 0;
+	}
+	
+		.PanelScroller .navControls > a:first-child
+		{
+			-webkit-border-bottom-left-radius: 0px; -moz-border-radius-bottomleft: 0px; -khtml-border-bottom-left-radius: 0px; border-bottom-left-radius: 0px;
+		}
+		
+		.PanelScroller .navControls > a:last-child
+		{
+			-webkit-border-bottom-right-radius: 0px; -moz-border-radius-bottomright: 0px; -khtml-border-bottom-right-radius: 0px; border-bottom-right-radius: 0px;
+		}
+		
+		.PanelScroller .navControls a:hover
+		{
+			color: rgb(228, 228, 228);
+text-decoration: none;
+
+		}
+		
+		.PanelScroller .navControls a.current
+		{
+			
+		}
+		
+			.PanelScroller .navControls a .arrow
+			{
+				display: none;
+			}
+			
+			.PanelScroller .navControls a.current span
+			{
+				display: block;
+				line-height: 0px;
+				width: 0px;
+				height: 0px;
+				border-top: 5px solid rgb(222, 222, 222);
+				border-right: 5px solid transparent;
+				border-bottom: 1px none black;
+				border-left: 5px solid transparent;
+				-moz-border-bottom-colors: rgb(222, 222, 222);
+				position: absolute;
+			}
+			
+			.PanelScroller .navControls a.current .arrow
+			{
+				border-top-color: ;
+				top: 0px;
+				left: 50%;
+				margin-left: -5px;
+			}
+			
+				.PanelScroller .navControls a .arrow span
+				{
+					border-top-color: rgb(255, 255, 255);
+					top: -6px;
+					left: -5px;
+				}
+				
+/* notices */
+
+#Notices .panel .noticeContent
+{
+	padding-right: 25px;
+}

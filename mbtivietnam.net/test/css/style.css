@@ -1,0 +1,176 @@
+/* THIẾT LẬP TỔNG THẾ */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: "Crystal";
+	src:url(../font/crystal.html);
+}
+
+@font-face{
+	font-family: "VietTay";
+	src:url(../font/UVNMucCham.html);
+}
+
+@font-face{
+	font-family: "SangSong";
+	src:url(../font/14-13847-UVNSangSong_R.html);
+}
+
+@font-face{
+	font-family:"NhatKy";
+	src:url(../font/14-13834-UVNNhatKy_I.html);
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+body{
+	background-image:url(../img/background.jpg);
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+
+
+/*THANH CÔNG CỤ*/
+
+#thanh-cong-cu{
+	/*position: absolute;
+	top: 30%;
+	left: 30%;*/
+	margin-top: 15%;
+	font-family: "Crystal";
+	color:#FFF;
+}
+
+#thanh-cong-cu h1{
+	font-size: 72px;
+	text-align:center;
+}
+
+#thanh-cong-cu p{
+	font-style:italic;
+	text-align: center;
+}
+#thanh-cong-cu #thanh-dieu-huong{
+	text-align:center;
+}
+
+#thanh-cong-cu #thanh-dieu-huong li{
+	display: inline-block;
+	padding: 30px;	
+}
+
+.gioi-thieu, .trac-nghiem, .dien-dan, .types{
+	color:#AFEEEE;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.trac-nghiem{
+	color:#8FBC8B;
+}
+
+.dien-dan{
+	color:#5F9EA0;
+}
+
+.types{
+	color:#FFFFF0;
+}
+
+/*VỀ CHÚNG TÔI*/
+#noi-dung{
+	background-color:#FC9;
+	position:relative;
+	width: 800px;
+	height: auto;
+	border-radius: 15px;
+	left: 50%;
+	margin-top: 30px;
+	margin-left:-400px;
+	padding: 40px;
+	display:none;
+	
+}
+
+#ve-chung-toi{
+	font-family: "NhatKy";
+	font-size: 24px;
+}
+
+#ve-chung-toi a{
+	color:#069;
+}
+
+.chu-ky{
+	text-align:right;
+}
+
+/*TRẮC NGHIỆM*/
+
+h1#trac-nghiem{
+	text-align: center;
+}
+
+#button{
+	width: 100px;
+	margin-left:350px;
+	background-color:#06F;
+	border:none;
+	font-family:"Crystal";
+	color:#FFFFFF;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+#send{
+	width: 100px;
+	margin-left:350px;
+	background-color:#900;
+	border:none;
+	font-family:"Crystal";
+	color:#FFFFFF;
+	font-size: 24px;
+}
+
+/*#anh-trac-nghiem{
+	position:relative;
+	left: 50%;
+	margin-left:-200px;
+}
+*/
+
+#dropdown-menu{
+	top: -10px;
+	margin-left: 10%;
+	display: none;
+	
+}
+#dropdown-menu li{
+	display: inline;
+	padding: 20px;
+	width: 50px;
+	
+}
+
+.hinh-anh{
+	text-align:center;
+}
+
+#footer{
+	font-family:"Crystal";
+	font-size: 14px;
+	color:#FFF;
+	text-align:center;
+	padding: 50px;
+	
+}

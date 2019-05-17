@@ -1,0 +1,540 @@
+@charset "UTF-8";
+
+/* --- chooser_overlay.css --- */
+
+.xenOverlay.chooserOverlay
+{
+	max-width: 700px;
+}
+
+	.chooserColumns
+	{
+		overflow: hidden; zoom: 1;
+		padding: 0;
+	}
+	
+		.chooserColumns li
+		{
+			float: left;
+			width: 33%;
+		}
+		
+			.chooserColumns.twoColumns li
+			{
+				width: 49.5%;
+			}
+		
+			.chooserColumns.oneColumns li
+			{
+				width: 100%;
+			}
+			
+			.chooserColumns.threeColumns li
+			{
+				width: 33%;
+			}
+			
+			.chooserColumns.fourColumns li
+			{
+				width: 24.5%;
+			}
+		
+			.chooserColumns li a
+			{
+				margin: 3px;
+				display: block;
+				padding: 5px 10px;
+				-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+				overflow: hidden; zoom: 1;
+			}
+			
+			.chooserColumns li a:hover
+			{
+				background-color: #d7edfc;
+				text-decoration: none;
+			}
+			
+			.chooserColumns .icon
+			{
+				float: left;
+				display: block;
+				width: 64px;
+				height: 64px;
+				background: #a5cae4;
+				border: 1px solid #a5cae4;
+				-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+				-webkit-box-shadow: 2px 2px 6px rgba(0,0,0, 0.25); -moz-box-shadow: 2px 2px 6px rgba(0,0,0, 0.25); -khtml-box-shadow: 2px 2px 6px rgba(0,0,0, 0.25); box-shadow: 2px 2px 6px rgba(0,0,0, 0.25);
+			}
+			
+				.styleChooser .icon
+				{
+					background-image: url('styles/default/xenforo/widgets/style-preview.png');
+				}
+			
+			.chooserColumns .title,
+			.chooserColumns .description
+			{
+				margin-left: 76px;
+				display: block;
+			}
+			
+			.chooserColumns .title
+			{
+				font-size: 11pt;
+			}
+			
+				.chooserColumns .unselectable .title:after
+				{
+					content: " *";
+				}
+			
+			.chooserColumns .description
+			{
+				color: rgb(150,150,150);
+				font-size: 11px;
+			}
+		
+	.chooserScroller
+	{
+		overflow: auto;
+		max-height: 200px;
+	}
+	
+		.chooserScroller li a
+		{
+			display: block;
+		}
+		
+		.chooserScroller li a:hover
+		{
+			background-color: #fff4e5;
+			text-decoration: none;
+		}
+		
+			.chooserScroller li a .info
+			{
+				font-size: 11px;
+				color: rgb(20,20,20);	
+			}
+			
+.chooserConfirm
+{
+	text-align: center;
+}
+	
+	.chooserConfirm strong
+	{
+		display: block;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+
+
+@media (max-width:480px)
+{
+	.Responsive .chooserOverlay .chooserColumns li
+	{
+		width: auto;
+		float: none;
+	}
+}
+
+
+/* --- facebook.css --- */
+
+a.fbLogin,
+#loginBar a.fbLogin
+{
+	display: inline-block;
+	width: 180px;
+	height: 22px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+	cursor: pointer;
+	
+	background: #29447e url('../../b.s-static.ak.facebook.com/images/connect_sprite.png');
+	background-repeat: no-repeat;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;
+	background-position: left -188px;
+	padding: 0px 0px 0px 1px;
+	outline: none;
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+a.fbLogin:active,
+#loginBar a.fbLogin:active
+{
+	background-position: left -210px;
+}
+
+a.fbLogin:hover,
+#loginBar a.fbLogin:hover
+{
+	text-decoration: none;
+}
+
+	a.fbLogin span
+	{
+		background: #5f78ab url('../../b.s-static.ak.facebook.com/images/connect_sprite.png');
+		border-top: solid 1px #879ac0;
+		border-bottom: solid 1px #1a356e;
+		display: block;
+		padding: 2px 4px 3px;
+		margin: 1px 1px 0px 21px;
+		text-shadow: none;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	a.fbLogin:active span
+	{
+		border-bottom: solid 1px #29447e;
+		border-top: solid 1px #45619d;
+		background: #4f6aa3;
+		text-shadow: none;
+	}
+
+/* --- login_bar.css --- */
+
+/** Login bar basics **/
+
+#loginBar
+{
+	color: #a5cae4;
+background-color: #032A46;
+border-bottom: 1px solid #65a5d1;
+position: relative;
+z-index: 1;
+
+}
+
+	#loginBar .ctrlWrapper
+	{
+		margin: 0 10px;
+	}
+
+	#loginBar .pageContent
+	{
+		padding-top: 5px;
+		position: relative;
+		_height: 0px;
+	}
+
+	#loginBar a
+	{
+		color: #6cb2e4;
+
+	}
+
+	#loginBar form
+	{
+		padding: 5px 0;
+margin: 0 auto;
+display: none;
+line-height: 20px;
+position: relative;
+
+	}
+	
+		#loginBar .xenForm .ctrlUnit,		
+		#loginBar .xenForm .ctrlUnit > dt label
+		{
+			margin: 0;
+			border: none;
+		}
+	
+		#loginBar .xenForm .ctrlUnit > dd
+		{
+			position: relative;
+		}
+	
+	#loginBar .lostPassword,
+	#loginBar .lostPasswordLogin
+	{
+		font-size: 11px;
+	}
+	
+	#loginBar .rememberPassword
+	{
+		font-size: 11px;
+	}
+
+	#loginBar .textCtrl
+	{
+		color: #f0f7fc;
+background-color: #2b485c;
+border-color: #65a5d1;
+
+	}
+	
+	#loginBar .textCtrl[type=text]
+	{
+		font-weight: bold;
+font-size: 18px;
+
+	}
+
+	#loginBar .textCtrl:-webkit-autofill /* http://code.google.com/p/chromium/issues/detail?id=1334#c35 */
+	{
+		background: #2b485c !important;
+		color: #f0f7fc;
+	}
+
+	#loginBar .textCtrl:focus
+	{
+		background: black none;
+
+	}
+	
+	#loginBar input.textCtrl.disabled
+	{
+		color: #a5cae4;
+background-color: #032A46;
+border-style: dashed;
+
+	}
+	
+	#loginBar .button
+	{
+		min-width: 85px;
+		*width: 85px;
+	}
+	
+		#loginBar .button.primary
+		{
+			font-weight: bold;
+		}
+		
+/** changes when eAuth is present **/
+
+#loginBar form.eAuth
+{
+	-x-max-width: 700px; /* normal width + 170px */
+}
+
+	#loginBar form.eAuth .ctrlWrapper
+	{
+		border-right: 1px dotted #176093;
+		margin-right: 200px;
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+	}
+
+	#loginBar form.eAuth #eAuthUnit
+	{
+		position: absolute;
+		top: 0px;
+		right: 10px;
+	}
+
+		#eAuthUnit li
+		{
+			margin-top: 10px;
+			line-height: 0;
+		}
+	
+/** handle **/
+
+#loginBar #loginBarHandle
+{
+	font-size: 11px;
+color: #f0f7fc;
+background-color: #032A46;
+padding: 0 10px;
+margin-right: 20px;
+-webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; -khtml-border-bottom-right-radius: 10px; border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px; -khtml-border-bottom-left-radius: 10px; border-bottom-left-radius: 10px;
+position: absolute;
+right: 0px;
+bottom: -20px;
+text-align: center;
+z-index: 1;
+line-height: 20px;
+-webkit-box-shadow: 0px 2px 5px #032A46; -moz-box-shadow: 0px 2px 5px #032A46; -khtml-box-shadow: 0px 2px 5px #032A46; box-shadow: 0px 2px 5px #032A46;
+
+}
+
+
+@media (max-width:800px)
+{
+	.Responsive #loginBar form.eAuth .ctrlWrapper
+	{
+		border-right: none;
+		margin-right: 10px;
+	}
+
+	.Responsive #loginBar form.eAuth #eAuthUnit
+	{
+		position: static;
+		width: 180px;
+		margin: 0 auto 10px;
+	}
+}
+
+
+/* --- panel_scroller.css --- */
+
+.hasJs #Notices.PanelScroller { display: none; }
+
+.PanelScroller .scrollContainer,
+.PanelScrollerOff .panel
+{
+	background-color: rgb(252, 252, 255);
+padding: 3px;
+margin-bottom: 10px;
+border: 1px solid #a5cae4;
+-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+font-size: 13pt;
+
+}
+
+.PanelScroller .PanelContainer
+{
+	position: relative;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+	.hasJs .PanelScroller .Panels
+	{
+		position: absolute;
+	}
+
+	.PanelScroller .Panels
+	{
+		clear: both;
+		margin: 0;
+		padding: 0;
+	}
+	
+		.PanelScroller .panel,
+		.PanelScrollerOff .panel
+		{
+			overflow: hidden;
+			position: relative;
+			padding: 0 !important;
+
+			background: #d7edfc url('styles/default/xenforo/gradients/category-23px-light.png') repeat-x top;
+padding: 10px;
+
+		}
+			
+		.PanelScroller .panel .noticeContent,
+		.PanelScrollerOff .panel .noticeContent
+		{
+			padding: 10px;
+		}
+
+/** panel scroller nav **/
+
+.PanelScroller .navContainer
+{
+	margin: -11px 21px 10px;
+overflow: hidden;
+zoom: 1;
+
+}
+
+.PanelScroller .navControls
+{
+	float: right;
+}
+
+/* clearfix */ .PanelScroller .navControls { zoom: 1; } .PanelScroller .navControls:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+
+	.PanelScroller .navControls a
+	{
+		font-size: 9px;
+background-color: #f0f7fc;
+padding: 3px 6px 2px;
+margin-left: -1px;
+float: left;
+display: block;
+position: relative;
+
+		
+		border: 1px solid #a5cae4;
+-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+		-webkit-border-radius: 0; -moz-border-radius: 0; -khtml-border-radius: 0; border-radius: 0;
+	}
+	
+		.PanelScroller .navControls > a:first-child
+		{
+			-webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -khtml-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px;
+		}
+		
+		.PanelScroller .navControls > a:last-child
+		{
+			-webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px; -khtml-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px;
+		}
+		
+		.PanelScroller .navControls a:hover
+		{
+			text-decoration: none;
+background-color: #f0f7fc;
+
+		}
+		
+		.PanelScroller .navControls a.current
+		{
+			background-color: #d7edfc;
+
+		}
+		
+			.PanelScroller .navControls a .arrow
+			{
+				display: none;
+			}
+			
+			.PanelScroller .navControls a.current span
+			{
+				display: block;
+				line-height: 0px;
+				width: 0px;
+				height: 0px;
+				border-top: 5px solid #a5cae4;
+				border-right: 5px solid transparent;
+				border-bottom: 1px none black;
+				border-left: 5px solid transparent;
+				-moz-border-bottom-colors: #a5cae4;
+				position: absolute;
+			}
+			
+			.PanelScroller .navControls a.current .arrow
+			{
+				border-top-color: #a5cae4;
+				top: 0px;
+				left: 50%;
+				margin-left: -5px;
+			}
+			
+				.PanelScroller .navControls a .arrow span
+				{
+					border-top-color: rgb(252, 252, 255);
+					top: -6px;
+					left: -5px;
+				}
+				
+/* notices */
+
+#Notices .panel .noticeContent
+{
+	padding-right: 25px;
+}
+
+/* --- style_chooser.css --- */
+
+/*
+You may use this template to add your own styling to the style chooser.
+If you want to add thumbnails for your styles, you can do so with CSS like this:
+
+.styleChooser .icon.style5
+{
+	background: transparent url('/path/to/square_64px_icon_for_style_5.jpg') no-repeat;
+}
+
+*/

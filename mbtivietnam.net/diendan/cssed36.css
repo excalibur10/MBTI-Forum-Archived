@@ -1,0 +1,529 @@
+@charset "UTF-8";
+
+/* --- events.css --- */
+
+.news_feed_page_global .eventList:first-of-type
+{
+	border-top: 1px solid rgb(207, 207, 207);
+}
+
+.event
+{
+	overflow: hidden; zoom: 1;
+}
+
+	.event .avatar,
+	.event .icon
+	{
+		float: left;
+	}
+	
+	.event .content
+	{
+		margin-left: 65px;
+		padding-top: 1px;
+	}
+	
+		.event .NewsFeedItemHider
+		{
+			float: right;
+			margin-left: 5px;
+		}
+	
+		.event .content .description
+		{
+			color: rgb(0, 0, 0);
+		}
+	
+			.event .content .description em
+			{
+				color: rgb(20,20,20);
+			}
+	
+		.event .content .options
+		{
+			float: right;
+			font-size: 11px;
+		}
+		
+		.event .content .primaryText
+		{
+			font-weight: bold;
+		}
+		
+		.event .content .title
+		{
+			line-height: 16px;
+			margin-top: 5px;
+		}
+		
+		.event .content .minorTitle
+		{
+			font-size: 11px;
+			line-height: 16px;
+			margin-top: 5px;
+		}
+		
+		.event .content .snippet
+		{
+			margin: 5px 0;
+			
+			font-size: 12.5pt;
+font-family: "Times New Roman", Times, serif;
+line-height: 1.4;
+;
+			
+			font-size: 11px;
+			font-style: italic;
+		}
+		
+		.event .content .DateTime
+		{
+			display: block;
+			color: rgb(0, 0, 0);
+			font-size: 11px;
+			margin-top: 5px;
+		}
+		
+		.event .content .icon
+		{
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			margin-right: 5px;
+			vertical-align: middle;
+		}
+		
+		.event .content .thread .icon
+		{
+			background: transparent url('styles/xendisconnect/xenforo/xenforo-ui-sprite.html') no-repeat -96px -16px;
+		}
+		
+		.event .content .forum .icon
+		{
+			background: transparent url('styles/xendisconnect/xenforo/xenforo-ui-sprite.html') no-repeat -80px -16px;
+		}
+		
+		.event .content .attachedImages		
+		{
+		}
+		
+			.event .content .attachedImages:hover,
+			.event .content .attachedImages:active
+			{
+				outline: 0 none;
+				text-decoration: none;
+			}
+			
+				.event .content .attachedImages img
+				{
+					max-height: 32px;
+				}
+
+/* --- facebook.css --- */
+
+a.fbLogin,
+#loginBar a.fbLogin
+{
+	display: inline-block;
+	width: 180px;
+	height: 22px;
+	-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+	cursor: pointer;
+	
+	background: #29447e url('../../b.s-static.ak.facebook.com/images/connect_sprite.png');
+	background-repeat: no-repeat;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px;
+	background-position: left -188px;
+	padding: 0px 0px 0px 1px;
+	outline: none;
+	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 14px;
+}
+
+a.fbLogin:active,
+#loginBar a.fbLogin:active
+{
+	background-position: left -210px;
+}
+
+a.fbLogin:hover,
+#loginBar a.fbLogin:hover
+{
+	text-decoration: none;
+}
+
+	a.fbLogin span
+	{
+		background: #5f78ab url('../../b.s-static.ak.facebook.com/images/connect_sprite.png');
+		border-top: solid 1px #879ac0;
+		border-bottom: solid 1px #1a356e;
+		display: block;
+		padding: 2px 4px 3px;
+		margin: 1px 1px 0px 21px;
+		text-shadow: none;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	a.fbLogin:active span
+	{
+		border-bottom: solid 1px #29447e;
+		border-top: solid 1px #45619d;
+		background: #4f6aa3;
+		text-shadow: none;
+	}
+
+/* --- login_bar.css --- */
+
+/** Login bar basics **/
+
+#loginBar
+{
+	color: #a5cae4;
+background-color: #032A46;
+border-bottom: 1px solid #65a5d1;
+position: relative;
+z-index: 1;
+
+}
+
+	#loginBar .ctrlWrapper
+	{
+		margin: 0 10px;
+	}
+
+	#loginBar .pageContent
+	{
+		padding-top: 5px;
+		position: relative;
+		_height: 0px;
+	}
+
+	#loginBar a
+	{
+		color: #6cb2e4;
+
+	}
+
+	#loginBar form
+	{
+		padding: 5px 0;
+margin: 0 auto;
+display: none;
+line-height: 20px;
+position: relative;
+
+	}
+	
+		#loginBar .xenForm .ctrlUnit,		
+		#loginBar .xenForm .ctrlUnit > dt label
+		{
+			margin: 0;
+			border: none;
+		}
+	
+		#loginBar .xenForm .ctrlUnit > dd
+		{
+			position: relative;
+		}
+	
+	#loginBar .lostPassword,
+	#loginBar .lostPasswordLogin
+	{
+		font-size: 11px;
+	}
+	
+	#loginBar .rememberPassword
+	{
+		font-size: 11px;
+	}
+
+	#loginBar .textCtrl
+	{
+		color: #f0f7fc;
+background-color: rgb(4, 51, 71);
+border-color: #65a5d1;
+
+	}
+	
+	#loginBar .textCtrl[type=text]
+	{
+		font-weight: bold;
+font-size: 18px;
+
+	}
+
+	#loginBar .textCtrl:-webkit-autofill /* http://code.google.com/p/chromium/issues/detail?id=1334#c35 */
+	{
+		background: rgb(4, 51, 71) !important;
+		color: #f0f7fc;
+	}
+
+	#loginBar .textCtrl:focus
+	{
+		background: black none;
+
+	}
+	
+	#loginBar input.textCtrl.disabled
+	{
+		color: #a5cae4;
+background-color: #032A46;
+border-style: dashed;
+
+	}
+	
+	#loginBar .button
+	{
+		min-width: 85px;
+		*width: 85px;
+	}
+	
+		#loginBar .button.primary
+		{
+			font-weight: bold;
+		}
+		
+/** changes when eAuth is present **/
+
+#loginBar form.eAuth
+{
+	-x-max-width: 700px; /* normal width + 170px */
+}
+
+	#loginBar form.eAuth .ctrlWrapper
+	{
+		border-right: 1px dotted rgb(34, 122, 183);
+		margin-right: 200px;
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box;
+	}
+
+	#loginBar form.eAuth #eAuthUnit
+	{
+		position: absolute;
+		top: 0px;
+		right: 10px;
+	}
+
+		#eAuthUnit li
+		{
+			margin-top: 10px;
+			line-height: 0;
+		}
+	
+/** handle **/
+
+#loginBar #loginBarHandle
+{
+	font-size: 11px;
+color: #f0f7fc;
+background-color: #032A46;
+padding: 0 10px;
+margin-right: 20px;
+-webkit-border-bottom-right-radius: 10px; -moz-border-radius-bottomright: 10px; -khtml-border-bottom-right-radius: 10px; border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px; -moz-border-radius-bottomleft: 10px; -khtml-border-bottom-left-radius: 10px; border-bottom-left-radius: 10px;
+position: absolute;
+right: 0px;
+bottom: -20px;
+text-align: center;
+z-index: 1;
+line-height: 20px;
+-webkit-box-shadow: 0px 2px 5px #032A46; -moz-box-shadow: 0px 2px 5px #032A46; -khtml-box-shadow: 0px 2px 5px #032A46; box-shadow: 0px 2px 5px #032A46;
+
+}
+
+
+@media (max-width:800px)
+{
+	.Responsive #loginBar form.eAuth .ctrlWrapper
+	{
+		border-right: none;
+		margin-right: 10px;
+	}
+
+	.Responsive #loginBar form.eAuth #eAuthUnit
+	{
+		position: static;
+		width: 180px;
+		margin: 0 auto 10px;
+	}
+}
+
+
+/* --- news_feed.css --- */
+
+.newsFeed
+{
+}
+
+.NewsFeedEnd
+{
+}
+
+.NewsFeedEnd a
+{
+	overflow: hidden; zoom: 1;
+}
+
+.newsFeed .extra
+{
+	font-size: 11px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+/* --- panel_scroller.css --- */
+
+.hasJs #Notices.PanelScroller { display: none; }
+
+.PanelScroller .scrollContainer,
+.PanelScrollerOff .panel
+{
+	background-color: rgb(252, 252, 255);
+padding: 3px;
+margin-bottom: 10px;
+border: 1px solid rgb(224, 211, 124);
+-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+font-size: 14px;
+
+}
+
+.PanelScroller .PanelContainer
+{
+	position: relative;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+	.hasJs .PanelScroller .Panels
+	{
+		position: absolute;
+	}
+
+	.PanelScroller .Panels
+	{
+		clear: both;
+		margin: 0;
+		padding: 0;
+	}
+	
+		.PanelScroller .panel,
+		.PanelScrollerOff .panel
+		{
+			overflow: hidden;
+			position: relative;
+			padding: 0 !important;
+
+			background-color: rgb(251, 246, 217);
+padding: 7px;
+
+		}
+			
+		.PanelScroller .panel .noticeContent,
+		.PanelScrollerOff .panel .noticeContent
+		{
+			padding: 7px;
+		}
+
+/** panel scroller nav **/
+
+.PanelScroller .navContainer
+{
+	margin: -11px 21px 10px;
+overflow: hidden;
+zoom: 1;
+
+}
+
+.PanelScroller .navControls
+{
+	float: right;
+}
+
+/* clearfix */ .PanelScroller .navControls { zoom: 1; } .PanelScroller .navControls:after { content: '.'; display: block; height: 0; clear: both; visibility: hidden; }
+
+	.PanelScroller .navControls a
+	{
+		font-size: 9px;
+background-color: #f0f7fc;
+padding: 3px 6px 2px;
+margin-left: -1px;
+float: left;
+display: block;
+position: relative;
+
+		
+		border: 1px solid rgb(224, 211, 124);
+-webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
+		-webkit-border-radius: 0; -moz-border-radius: 0; -khtml-border-radius: 0; border-radius: 0;
+	}
+	
+		.PanelScroller .navControls > a:first-child
+		{
+			-webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -khtml-border-bottom-left-radius: 5px; border-bottom-left-radius: 5px;
+		}
+		
+		.PanelScroller .navControls > a:last-child
+		{
+			-webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomright: 5px; -khtml-border-bottom-right-radius: 5px; border-bottom-right-radius: 5px;
+		}
+		
+		.PanelScroller .navControls a:hover
+		{
+			text-decoration: none;
+background-color: #f0f7fc;
+
+		}
+		
+		.PanelScroller .navControls a.current
+		{
+			background-color: rgb(207, 207, 207);
+
+		}
+		
+			.PanelScroller .navControls a .arrow
+			{
+				display: none;
+			}
+			
+			.PanelScroller .navControls a.current span
+			{
+				display: block;
+				line-height: 0px;
+				width: 0px;
+				height: 0px;
+				border-top: 5px solid #a5cae4;
+				border-right: 5px solid transparent;
+				border-bottom: 1px none black;
+				border-left: 5px solid transparent;
+				-moz-border-bottom-colors: #a5cae4;
+				position: absolute;
+			}
+			
+			.PanelScroller .navControls a.current .arrow
+			{
+				border-top-color: rgb(224, 211, 124);
+				top: 0px;
+				left: 50%;
+				margin-left: -5px;
+			}
+			
+				.PanelScroller .navControls a .arrow span
+				{
+					border-top-color: rgb(252, 252, 255);
+					top: -6px;
+					left: -5px;
+				}
+				
+/* notices */
+
+#Notices .panel .noticeContent
+{
+	padding-right: 25px;
+}
