@@ -1,0 +1,24 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.reactiongifs.com	TRUE	/	FALSE	1999999999	__cfduid	db50f9a990ee9de5571e63db3d49261551557645243
+www.diaart.org	TRUE	/	FALSE	1999999999	ci_session	a%3A6%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22ed7aabe6803c32e6672d446a46d45402%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%22115.78.14.142%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A50%3A%22Mozilla%2F4.5+%28compatible%3B+HTTrack+3.0x%3B+Windows+98%29%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1557645850%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3Bs%3A11%3A%22basket_hash%22%3Bs%3A37%3A%22115.78.14.142-5cd7ca1a935864.85029744%22%3B%7D2d30ee3e56d6a3066fa7c04a47c33aed
+static.new.tuoitre.vn	TRUE	/	FALSE	1999999999	BIGipServerNewFront	2923210944.20480.0000
+.rockpassion.vn	TRUE	/	FALSE	1999999999	__cfduid	d64004e45d19ab4d9f41e1664ff6cc4cf1557646502
+www.westfieldproductionco.com	TRUE	/	FALSE	1999999999	crumb	BUSHxaEML0+qZGVjZmY4Mzk1ZjVlODVmYzMzYTVmOTc3ODA2MDMy
+.celebritytypes.com	TRUE	/	FALSE	1999999999	__cfduid	d21856e7e2aa8331ffb6212af18c5fa201557649276
+.tamlyhoctoipham.com	TRUE	/	FALSE	1999999999	__cfduid	d232cb765bcf5f795ea3b178d8e2fc6481557650690
+vnexpress.net	TRUE	/	FALSE	1999999999	device_env	4
+vnexpress.net	TRUE	/	FALSE	1999999999	device_env_real	4
+.okcimg.com	TRUE	/	FALSE	1999999999	__cfduid	d966e8dcf147f280c4962e1143a8e7c9c1557652915
+.thethao247.vn	TRUE	/	FALSE	1999999999	__cfduid	ddb3fcfab053f7ccfd7a43ae56b1202f01557653019
+.upsieutoc.com	TRUE	/	FALSE	1999999999	__cfduid	dc837baf6bbce77a48592db314394b3d91557653156
+.hugelolcdn.com	TRUE	/	FALSE	1999999999	__cfduid	d3cf4feec983531d96f01cd46db5e600f1557653256
+gohappy.vn	TRUE	/	FALSE	1999999999	_bizweb	1557653449--55399--10584e0dc994dce961f974138f1a3cb7cac631391271b8cd48b8549c74c7169b
+gohappy.vn	TRUE	/	FALSE	1999999999	_session_id	uphdnjlkiowppdktrxgejogd
+.freshdesignpedia.com	TRUE	/	FALSE	1999999999	__cfduid	daf03fb22699af56017c26010776b95a01557654001
+.daikynguyenvn.com	TRUE	/	FALSE	1999999999	__cfduid	d28504987e8d40001c3903adeec2df6861557654710
+.torrentfreak.com	TRUE	/	FALSE	1999999999	__cfduid	d6b8950e7600b9179399b4410d578bdf51557654717
+.cdnforo.com	TRUE	/	FALSE	1999999999	__cfduid	d315d8681648107650ee95e03cb519fc21557654719
+mbtivietnam.net	TRUE	/	FALSE	1999999999	xf_style_id	3
+mbtivietnam.net	TRUE	/	FALSE	1999999999	xf_session	0fab977ed8343fc40027f8a132aa0f50
+
